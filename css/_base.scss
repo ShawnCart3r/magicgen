@@ -1,0 +1,29 @@
+:root{
+
+    --color-primary-light: #FF3366;
+    --color-primary-dark: #BA265D;
+
+    --color-primary-red: #8B0000;
+    --color-primary-black: #000;
+    --color-primary-blue: #0000ff;
+    --color-primary-green: #006400;
+    --color-primary-white: #fffafa;
+
+    --color-grey-light-1: grey;
+    --shadow-dark:  0 2rem 6rem rgba(0,0,0,.3);
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-image: linear-gradient(to right bottom, var(--color-primary-red), var(--color-primary-black), var(--color-primary-blue), var(--color-primary-green), var(--color-primary-white));
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+}
