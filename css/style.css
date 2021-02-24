@@ -8,6 +8,7 @@
   --color-primary-white: #fffafa;
   --color-grey-light-1: grey;
   --shadow-dark:  0 2rem 6rem rgba(0,0,0,.3);
+  --bg-gold: gold;
 }
 
 * {
@@ -35,7 +36,7 @@ body {
 
 .top {
   max-width: 26rem;
-  background-color: var(--color-grey-light-1);
+  background-color: var(--bg-gold);
   -webkit-box-shadow: var(--shadow-dark);
           box-shadow: var(--shadow-dark);
   margin-top: 5px;
@@ -53,11 +54,13 @@ body {
 
 .top__name {
   margin-left: 5px;
+  margin-top: 5px;
 }
 
 .top__mana {
-  margin-left: 5px;
-  margin-right: -400px;
+  margin-left: 200px;
+  margin-right: -500px;
+  margin-top: 5px;
 }
 
 .top__mana-symbol {
@@ -68,14 +71,27 @@ body {
   width: 5%;
 }
 
+.top__mana-symbol-p {
+  width: 4.5%;
+  margin-right: 23px;
+  margin-left: -25px;
+}
+
+.top__mana-symbol-c {
+  width: 4.5%;
+  margin-right: 23px;
+  margin-left: -25px;
+}
+
 .art__pic {
   width: 95%;
   margin-left: 15px;
+  height: 400px;
 }
 
 .type {
   max-width: 26rem;
-  background-color: var(--color-grey-light-1);
+  background-color: var(--bg-gold);
   -webkit-box-shadow: var(--shadow-dark);
           box-shadow: var(--shadow-dark);
   margin-top: -3px;
@@ -92,11 +108,12 @@ body {
 }
 
 .type__spell {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .type__pic {
   width: 5%;
+  margin-right: 5px;
 }
 
 .text {
@@ -127,7 +144,7 @@ body {
 
 .bottom {
   max-width: 26rem;
-  background-color: var(--color-grey-light-1);
+  background-color: var(--color-primary-black);
   -webkit-box-shadow: var(--shadow-dark);
           box-shadow: var(--shadow-dark);
   margin-top: -3px;
@@ -142,21 +159,24 @@ body {
 .bottom__number {
   font-size: 10px;
   margin-left: 10px;
+  color: #fff;
 }
 
 .bottom__legal {
   font-size: 10px;
   margin-left: 150px;
+  color: #fff;
 }
 
 .container {
   max-width: 28rem;
   margin: 8rem auto;
-  background-image: url(/images/black-white.jpg);
+  background-image: url(/images/yellow.png);
   -webkit-box-shadow: var(--shadow-dark);
           box-shadow: var(--shadow-dark);
   border: 12px solid black;
   border-radius: 12px;
-  min-height: 20rem;
+  min-height: 10rem;
+  z-index: 1;
 }
 /*# sourceMappingURL=style.css.map */

@@ -11,7 +11,7 @@
 .top{
     max-width: 26rem;
     
-    background-color: var(--color-grey-light-1);
+    background-color: var(--bg-gold);
     box-shadow: var(--shadow-dark);
     margin-top: 5px;
     margin-left: 15px;
@@ -24,13 +24,16 @@
 
     &__name{
         margin-left: 5px;
+        margin-top: 5px;
+        
         
 
     }
 
     &__mana{
-        margin-left: 5px;
-        margin-right: -400px;
+        margin-left: 200px;
+        margin-right: -500px;
+        margin-top: 5px;
 
     }
 
@@ -41,6 +44,19 @@
    &__colorless{
        width: 5%;
    }
+
+   &__mana-symbol-p{
+    width: 4.5%;
+    margin-right: 23px;
+    margin-left: -25px;
+
+   }
+
+   &__mana-symbol-c{
+       width: 4.5%;
+       margin-right: 23px;
+    margin-left: -25px;
+   }
     }
 
     .art{ 
@@ -49,6 +65,8 @@
         &__pic{
             width: 95%;
             margin-left: 15px;
+            height: 400px;
+            
            
         }
     }
@@ -56,7 +74,7 @@
     .type{
         max-width: 26rem;
     
-        background-color: var(--color-grey-light-1);
+        background-color: var(--bg-gold);
         box-shadow: var(--shadow-dark);
         margin-top: -3px;
         margin-left: 15px;
@@ -68,11 +86,12 @@
         justify-content: space-between;
 
         &__spell{   
-            margin-left: 5px;
+            margin-left: 10px;
         }
 
         &__pic{
             width: 5%;
+            margin-right: 5px;
 
         }
 
@@ -111,7 +130,7 @@
     .bottom{
         max-width: 26rem;
     
-        background-color: var(--color-grey-light-1);
+        background-color: var(--color-primary-black);
         box-shadow: var(--shadow-dark);
         margin-top: -3px;
         margin-left: 15px;
@@ -122,11 +141,13 @@
         &__number{
             font-size: 10px;
             margin-left: 10px;
+            color: #fff;
 
         }
         &__legal{
             font-size: 10px;
             margin-left: 150px;
+            color: #fff;
         }
     }
 
